@@ -1,0 +1,5 @@
+<p>Cross component communication with each other</p>
+
+<ul>
+  <li *ngFor = "let pData of personList" (click) = "onRemovePerson(pData)">{{ pData }}</li>
+</ul>
